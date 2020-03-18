@@ -25,5 +25,5 @@ for char in c:
 
     index_of_char = alph.index(f'{char}')
     sound = sounds[index_of_char]
-    playsound(f'{home}/sounds/piano/' + f'{sound}.mp3')
+    playsound(f'{home}/sounds/piano/{sound}.mp3')
     
