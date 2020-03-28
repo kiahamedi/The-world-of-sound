@@ -18,7 +18,7 @@ for char in c:
         char = char.lower()
 
     if char == '\n':
-        break
+        continue
 
     alph = list(string.ascii_lowercase)
     sounds = ['28', '26', '25', '27',  '24', '25', '26', '29', '26', '28', '29', '28', '27', '28', '29', '26', '28', '25', '27', '23', '24', '28', '27', '22', '26', '19']
